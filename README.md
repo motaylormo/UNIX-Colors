@@ -1,5 +1,7 @@
 # UNIX-Colors
 
+## Basic Colors
+
 ## 256 Colors
 <img src="https://github.com/motaylormo/UNIX-Colors/blob/master/chart.png" height="800px">
 
