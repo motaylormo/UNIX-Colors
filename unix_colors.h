@@ -20,6 +20,7 @@
 
 /*
 **	Text variations
+**		Does not work: BLINK, HIDDEN, STRIKETHU
 */
 # define BOLD		"\e[1m"
 # define DIM		"\e[2m"
