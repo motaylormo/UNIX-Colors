@@ -44,7 +44,7 @@
 # define WHT	"\e[37m"
 
 /*
-**	Intense text colors
+**	Bright/light/intense text colors
 */
 # define B_BLK	"\e[90m"
 # define B_RED	"\e[91m"
@@ -68,7 +68,7 @@
 # define ON_WHT		"\e[47m"
 
 /*
-**	Intense background colors
+**	Bright/light/intense background colors
 */
 # define ON_B_BLK	"\e[100m"
 # define ON_B_RED	"\e[101m"
