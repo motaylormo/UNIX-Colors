@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   unix_colors.h                                      :+:      :+:    :+:   */
+/*   unix_text.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mtaylor <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,21 +10,29 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef UNIX_COLORS_H
-# define UNIX_COLORS_H
+#ifndef UNIX_TEXT_H
+# define UNIX_TEXT_H
 
-#define COLOR_OFF	"\e[0m"
+/*
+**	Off
+*/
+# define COLOR_OFF	"\e[0m"
 
+/*
+**	Text variations
+*/
 # define BOLD		"\e[1m"
 # define DIM		"\e[2m"
 # define ITALIC		"\e[3m"
 # define UNDERLINE	"\e[4m"
 # define BLINK		"\e[5m"
-
 # define INVERSE	"\e[7m"
 # define HIDDEN		"\e[8m"
 # define STRIKETHU	"\e[9m"
 
+/*
+**	Text colors
+*/
 # define BLK	"\e[30m"
 # define RED	"\e[31m"
 # define GRN	"\e[32m"
@@ -34,15 +42,21 @@
 # define CYN	"\e[36m"
 # define WHT	"\e[37m"
 
-# define I_BLK	"\e[90m"
-# define I_RED	"\e[91m"
-# define I_GRN	"\e[92m"
-# define I_YLW	"\e[93m"
-# define I_BLU	"\e[94m"
-# define I_VIO	"\e[95m"
-# define I_CYN	"\e[96m"
-# define I_WHT	"\e[97m"
+/*
+**	Intense text colors
+*/
+# define B_BLK	"\e[90m"
+# define B_RED	"\e[91m"
+# define B_GRN	"\e[92m"
+# define B_YLW	"\e[93m"
+# define B_BLU	"\e[94m"
+# define B_VIO	"\e[95m"
+# define B_CYN	"\e[96m"
+# define B_WHT	"\e[97m"
 
+/*
+**	Background colors
+*/
 # define ON_BLK		"\e[40m"
 # define ON_RED		"\e[41m"
 # define ON_GRN		"\e[42m"
@@ -52,15 +66,21 @@
 # define ON_CYN		"\e[46m"
 # define ON_WHT		"\e[47m"
 
-# define ON_I_BLK	"\e[100m"
-# define ON_I_RED	"\e[101m"
-# define ON_I_GRN	"\e[102m"
-# define ON_I_YLW	"\e[103m"
-# define ON_I_BLU	"\e[104m"
-# define ON_I_VIO	"\e[105m"
-# define ON_I_CYN	"\e[106m"
-# define ON_I_WHT	"\e[107m"
+/*
+**	Intense background colors
+*/
+# define ON_B_BLK	"\e[100m"
+# define ON_B_RED	"\e[101m"
+# define ON_B_GRN	"\e[102m"
+# define ON_B_YLW	"\e[103m"
+# define ON_B_BLU	"\e[104m"
+# define ON_B_VIO	"\e[105m"
+# define ON_B_CYN	"\e[106m"
+# define ON_B_WHT	"\e[107m"
 
+/*
+**	256 colors
+*/
 # define TXT256(x)	"\e[38;5;"x"m"
 # define BKG256(x)	"\e[48;5;"x"m"
 
